@@ -2,10 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="css/main.css" rel="stylesheet">
+    <title>Marvel All Characters</title>
 </head>
 <body>
-    
+    <header>
+        <h1 class="hidden">All about the team</h1>
+        <img src="images/logo.svg" id="main-logo" alt="Marvel Logo">
+    </header>
+
+    <main>
+        <nav id="character_nav">
+            <ul class="characters">
+                <li>
+                    <a href="#lightbox">
+                        <div class="sprite" id="cap"></div>
+                        <h3>Captain America</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#lightbox">
+                        <div class="sprite" id="carol"></div>
+                        <h3>Captain Marvel</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#lightbox">
+                        <div class="sprite" id="clint"></div>
+                        <h3>Hawkeye</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#lightbox">
+                        <div class="sprite" id="hulk"></div>
+                        <h3>Hulk</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#lightbox2">
+                        <div class="sprite" id="thor"></div>
+                        <h3>Thor</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#lightbox">
+                        <div class="sprite" id="widow"></div>
+                        <h3>Black Widow</h3>
+                    </a>
+                </li>
+
+
+            </ul>
+        </nav>
+        <section id="instructions">
+            <h3>Choose your hero!</h3>
+            <p>Use your mouse to hover / click to discover about each Marvel Character</p>
+
+        </section>
+
+        <section class="lightbox" id="lightbox">
+            <a href="" class="lightbox_close">X</a>
+            <article>
+                <h3 class="lb_heading">Captain America - The First Avenger</h3>
+                <p class="lb_text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur eos vitae dolore facere odit maxime corrupti provident cumque voluptatibus nam, ratione temporibus eum nemo repellat recusandae ipsam? Ex, officiis tempora!
+                </p>
+                <p class="lb_text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur eos vitae dolore facere odit maxime corrupti provident cumque voluptatibus nam, ratione temporibus eum nemo repellat recusandae ipsam? Ex, officiis tempora!
+                </p>
+            </article>
+        </section>
+
+        <section class="lightbox" id="lightbox2">
+            <a href="" class="lightbox_close">X</a>
+            <article>
+                <h3 class="lb_heading">Thor - The Sparkle Fingers</h3>
+                <p class="lb_text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur eos vitae dolore facere odit maxime corrupti provident cumque voluptatibus nam, ratione temporibus eum nemo repellat recusandae ipsam? Ex, officiis tempora!
+                </p>
+                <p class="lb_text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur eos vitae dolore facere odit maxime corrupti provident cumque voluptatibus nam, ratione temporibus eum nemo repellat recusandae ipsam? Ex, officiis tempora!
+                </p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="sticky-footer">
+        <h3>All Images &copy; Marvels</h3>
+    </footer>
 </body>
 </html>
