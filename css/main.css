@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: red;
+    background-color: rgb(42, 1, 1);
     padding: 10px 0;
 
 }
@@ -27,8 +27,8 @@ header {
 }
 
 #character_nav {
-    background-color: #675050;
-    background-image: url(../images//characters_art_mas_mob_01.jpeg);
+    background-color: black;
+    /* background-image: url(../images//characters_art_mas_mob_01.jpeg); */
     background-size: cover;
     background-blend-mode: overlay;
 }
@@ -49,12 +49,12 @@ header {
     margin: 10px 8px;
     text-align: center;
     cursor: pointer;
-    box-shadow: 0 155px 0 0 red inset;
+    box-shadow: 0 155px 0 0 rgb(84, 0, 0) inset;
     transition: box-shadow 0.2s ease-in-out;
 }
 
 .characters li:hover {
-    box-shadow: 0 220px 0 0 red inset;
+    box-shadow: 0 220px 0 0 rgb(84, 0, 0) inset;
 }
 
 .characters li h3 {
@@ -69,31 +69,31 @@ header {
 .sprite {
     width: 150px;
     height: 150px;
-    background-image: url(../images/marvelSprites.jpg);
+    background-image: url(../images/sprite.png);
 }
 
-#carol {
-    background-position: -150px 0;
+#arya {
+    background-position: -250px 0;
 }
 
-#clint {
-    background-position: -300px 0;
+#ned {
+    background-position: -500px 0;
 }
 
-#hulk {
-    background-position: -450px 0;
-}
-
-#thor {
-    background-position: -600px 0;
-}
-
-#widow {
+#tyr {
     background-position: -750px 0;
 }
 
-#cap:hover, #carol:hover, #clint:hover, #hulk:hover, #thor:hover, #widow:hover {
-    background-position-y: 150px;
+#dan {
+    background-position: -920px 0;
+}
+
+#jamie {
+    background-position: -1150px 0;
+}
+
+#john:hover, #arya:hover, #ned:hover, #tyr:hover, #dan:hover, #jamie:hover {
+    background-position-y: -225px;
 }
 
 #instructions {
