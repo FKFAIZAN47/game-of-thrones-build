@@ -122,9 +122,9 @@ footer {
     left: 0;
     z-index: 100;
     background-color: rgba(0,0,0,0.85);
-    background-image: url(../images/Cap_LB_Bg.png);
+    background-image: url(../images/snow.png);
     background-repeat: no-repeat;
-    background-size: 55vh;
+    background-size: 75vh;
     background-position: 40px bottom;
     display: none;
 }
@@ -163,5 +163,21 @@ footer {
 }
 
 #lightbox2 {
-    background-image: url(../images/Thor_LB_Bg.png);
+    background-image: url(../images/arya.png);
+}
+
+#lightbox3 {
+    background-image: url(../images/ned.png);
+}
+
+#lightbox4 {
+    background-image: url(../images/tyr.png);
+}
+
+#lightbox5 {
+    background-image: url(../images/dan.png);
+}
+
+#lightbox6 {
+    background-image: url(../images/jamie.png);
 }
